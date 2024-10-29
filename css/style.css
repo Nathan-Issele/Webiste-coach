@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto|Open+Sans");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+body{
+	font-family: Open+sans;
+	font-size: 15 px;
+	margin: 0px;
+}
+h1, h2, h3{
+	font-family: "Roboto", sans-serif;
+	font-size: 12 px ;
+}

@@ -1,0 +1,27 @@
+.container{
+	width:700px ;
+	margin: 0 auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+typeform-container {
+    position: absolute; /* Positionne le conteneur */
+    top: 0; /* Aligne le conteneur en haut */
+    left: 0; /* Aligne le conteneur à gauche */
+    width: 100vw; /* Prend toute la largeur de la fenêtre */
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    z-index: -1; /* Met le conteneur derrière les autres éléments si nécessaire */
+}
